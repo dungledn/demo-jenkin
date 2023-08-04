@@ -43,8 +43,8 @@ class Handler extends ExceptionHandler
      */
     public function register()
     {
-        $this->reportable(function () {
-
+        $this->reportable(function (Throwable $e) {
+            $e->getMessage();
         });
     }
 }
