@@ -23,4 +23,7 @@
     <rule ref="Generic.Formatting.DisallowMultipleStatements"/>
     <rule ref="Generic.WhiteSpace.DisallowTabIndent"/>
     <rule ref="Generic.WhiteSpace.ScopeIndent"/>
+    <rule ref="Internal.NoCodeFound">
+        <severity>0</severity>
+    </rule>
 </ruleset>
