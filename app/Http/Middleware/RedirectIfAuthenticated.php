@@ -16,7 +16,7 @@ class RedirectIfAuthenticated
      *
      * @param Request                                       $request   request
      * @param Closure(Request): (Response|RedirectResponse) $next      next
-     * @param string|null                                   ...$guards guards
+     * @param string|null                                   ...$guards  guards
      *
      * @return Response|RedirectResponse
      */
